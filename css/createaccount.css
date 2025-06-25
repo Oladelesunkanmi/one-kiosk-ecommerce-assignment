@@ -1,0 +1,88 @@
+.main-page{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: fit-content;
+  margin: auto;
+}
+.main-page h1{
+  position: absolute;
+}
+
+.image-section img{
+  position: relative;
+  height: 500px;
+  width: 600px;
+  width: fit-content;
+  z-index: -999;
+}
+
+form{
+  background-color: white;
+  max-width: 500px;
+  margin: auto;
+  height: 100%;
+  padding: 20px;
+}
+
+.create-account{
+  background-color: rgb(243 241 239);
+  padding: 20px;
+
+
+}
+
+select {
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.create-account h3{
+  text-align: center;
+  color:rgb(11 79 58);
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+.create-account label{
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+
+}
+.create-account input{
+  margin-bottom: 20px;
+  background-color: rgb(243 241 239);
+  padding:15px;
+  width: 100%;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.create-account input::placeholder{
+  font-size: large;
+}
+.sign-up-btn{
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+footer{
+  border: 1px solid gray;
+  padding:30px;
+  text-align: center;
+}
+
+.incorrect input{
+  border: 1px solid red;
+}
+#error-message{
+  color: red;
+}
+
+/* responsiveness */
+@media (max-width:800px) {
+  .main-page{
+    grid-template-columns: 1fr;
+  }
+  
+}
