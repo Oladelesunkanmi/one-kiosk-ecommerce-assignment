@@ -7,44 +7,59 @@
   <title>One kiosk Website </title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/createaccount.css">
+  <!-- Include Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
-  <!-- header -->
-  <nav class="navbar">
-    <img class="logo" src="images/logo.png" alt="kiosk logo">
-    <div class="search-section">
-      <input type="search" placeholder="search products" class="search">
-      <img src="images/icons/search-icon.png" alt="search icon">
-    </div>
+    <nav class="navbar">
+        <div class="navbar-logo-toggle-section">
+            <img class="logo" src="images/logo.png" alt="kiosk logo">
+            <div class="search-section">
+                <input type="search" placeholder="search products" class="search">
+                <img src="images/icons/search-icon.png" alt="search icon">
+            </div>
 
-    <button class="navbar-toggle">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </button>
+            <div class="cart-for-mobile">
+                
 
-    <ul class="navbar-menu">
-      <li><a href="shop.html">Shop Now</a></li>
-      <li><a href="#"></a></li>
-      <div class="cart-nav">
-        <li a href="#">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <button class="navbar-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
 
-          <img src="images/icons/cart-icon.png" alt="cart icon " class="cart-icon">
-          <div>
-            <h6>3</h6>
-            <h3>Cart</h3>
-          </div>
+            </div>
+        </div>
+        <ul class="navbar-desktop">
+            <li><a href="shop.html">Shop Now</a></li>
+            <li><a href=""><i class="fas fa-user"></i></a></li>
+            <div class="cart-nav">
+                <li a href="#">
+
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i><div>
+                        <h6>3</h6>
+                        <h3>Cart</h3>
+                    </div>
+            </div>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="createaccount.html">Create Account</a></li>
+
+        </ul>
+        <ul class="navbar-menu">
+            <li><a href="shop.html">Shop Now</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="createaccount.html">Create Account</a></li>
+
+        </ul>
 
 
-          </a>
-        </li>
-      </div>
-      <li><a href="login.html">Login</a></li>
-      <li><a href="createaccount.html">Create Account</a></li>
 
-    </ul>
-  </nav>
+
+
+    </nav>
   <section class="main-page">
     <div class="image-section">
       <h1>
