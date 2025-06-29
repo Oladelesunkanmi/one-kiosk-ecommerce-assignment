@@ -12,6 +12,7 @@ nav {
     justify-content: space-between;
     text-align: center;
     align-items: center;
+    width: 100%;
 }
 .navbar-logo-toggle-section{
     display: flex;
